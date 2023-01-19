@@ -9,8 +9,7 @@
     "preview": "vite preview",
     "prettier:check": "npx prettier --check .",
     "prettier:fix": "npx prettier --write .",
-    "lint": "npx eslint .",
-    "prepare": "cd .. && husky install client/.husky"
+    "lint": "npx eslint ."
   },
   "dependencies": {
     "react": "^18.2.0",
