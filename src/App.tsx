@@ -1,11 +1,20 @@
-import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
+// Pages
+import { Home } from './assets/pages'
+
+// Shared Layout
+import { Navbar, Footer } from './assets/components'
 
 function App() {
   return (
-    <div>
-      <h1>Audiophile</h1>
-      <h2>Hello</h2>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <Footer />
+    </Router>
   )
 }
 

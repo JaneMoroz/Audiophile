@@ -26,6 +26,10 @@ const CustomStyles = createGlobalStyle({
   p: {
     ...tw`text-[15px] font-normal leading-[25px]`,
   },
+
+  header: {
+    ...tw`bg-secondary py-8`,
+  },
 })
 
 export default function GlobalStyles() {

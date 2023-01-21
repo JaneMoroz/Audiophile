@@ -11,6 +11,7 @@ module.exports = {
         secondary: '#101010',
         tertiary: '#F1F1F1',
         background: '#FAFAFA',
+        border: '#979797',
       },
       fontFamily: {
         body: ['Manrope'],
