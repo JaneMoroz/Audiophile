@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 // Pages
-import { Home } from './assets/pages'
+import { Home } from './pages'
 
 // Shared Layout
-import { Navbar, Footer } from './assets/components'
+import { Navbar, Footer } from './components'
 
 function App() {
   return (

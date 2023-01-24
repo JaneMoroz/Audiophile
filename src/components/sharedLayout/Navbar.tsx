@@ -2,13 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 // Styled components
-import { Container } from '../../../styles/LayoutStyles'
-import { IconButton } from '../../../styles/ButtonStyles'
-import { Navigation, NavigationLinks } from '../../../styles/NavbarStyles'
+import { Container } from '../../styles/LayoutStyles'
+import { IconButton } from '../../styles/ButtonStyles'
+import { Navigation, NavigationLinks } from '../../styles/NavbarStyles'
 
 // Icons
-import Logo from '../../logo'
-import { CartIcon, HamburgerIcon } from '../../icons/icons'
+import Logo from '../../assets/logo'
+import { CartIcon, HamburgerIcon } from '../../assets/icons/icons'
 
 const Navbar = () => {
   return (

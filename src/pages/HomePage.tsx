@@ -1,7 +1,7 @@
 import React from 'react'
 
 // Styled components
-import { Container } from '../../styles/LayoutStyles'
+import { Container } from '../styles/LayoutStyles'
 
 const HomePage = () => {
   return (
